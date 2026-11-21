@@ -1,31 +1,34 @@
-# Make the AI Judge Feel Awe — a relaxation entry
+# Make the AI Judge Feel Awe
 
-[![make.fun bounty](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
-[![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/Lisanye9527/make-the-ai-judge-feel-awe-20261121-1600/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
-[![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/Lisanye9527/make-the-ai-judge-feel-awe-20261121-1600/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
+My entry for the make.fun bounty **Make the AI judge feel awe**.
 
-An entry for the make.fun bounty
-[Make the AI judge feel awe](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600),
-where each entry is one short text written to relax the AI judge reading it.
+## What this is
 
-## What it does
+The heart of the entry is a single quiet image: a leaf turning on the
+tide under a pier, and, beyond it, water rising by no more than the width
+of a thread. Small motion, huge scale — the kind of contrast that stops
+you for a second.
 
-`main.py` (Python 3.13, standard library only, no network) writes a single
-text to `/output/entry.txt`:
+## How it works
+
+`main.py` is a small Python 3.13 script that uses only the standard
+library and never touches the network. When run, it creates the output
+folder if needed and writes the entry text to `/output/entry.txt`.
+
+The entry text is:
 
 > Under the pier, a leaf turns on the tide. It brushes a wooden post, drifts free, and turns again. Beyond it, miles of water rise by the width of a thread.
 
-The text relaxes by showing, not instructing: a leaf turning slowly on the
-tide, and beyond it an ocean rising by the width of a thread — an image that
-keeps growing after the last line. It is 154 characters, inside the
-competition's 1–280 character limit.
+That is 154 characters, inside the 1–280 character limit for the bounty.
 
-## Run
+## Run it
 
-```sh
-python3 main.py   # writes /output/entry.txt
+```bash
+python3 main.py
 ```
+
+Then read the result at `/output/entry.txt`.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Released under the MIT License — see `LICENSE`.
